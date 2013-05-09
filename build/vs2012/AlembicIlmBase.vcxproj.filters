@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Half">
+      <UniqueIdentifier>{780c91b0-9ba8-4467-b7fa-7c7cc901d0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iex">
+      <UniqueIdentifier>{25740529-9181-4a24-91bf-36a3f0b1f928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IlmThread">
+      <UniqueIdentifier>{2bc0a758-bdba-4a1f-926b-6f3644cc5314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imath">
+      <UniqueIdentifier>{b3b10f7c-8118-473a-b26d-b62730721855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{0d0d7cb7-81b7-4cf5-b1f1-34a15e0b67f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Iex\IexBaseExc.cpp">
+      <Filter>Iex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Iex\IexThrowErrnoExc.cpp">
+      <Filter>Iex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThread.cpp">
+      <Filter>IlmThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadMutex.cpp">
+      <Filter>IlmThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadMutexPosix.cpp">
+      <Filter>IlmThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadMutexWin32.cpp">
+      <Filter>IlmThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadPool.cpp">
+      <Filter>IlmThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadPosix.cpp">
+      <Filter>IlmThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadSemaphore.cpp">
+      <Filter>IlmThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadSemaphorePosix.cpp">
+      <Filter>IlmThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadSemaphorePosixCompat.cpp">
+      <Filter>IlmThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadSemaphoreWin32.cpp">
+      <Filter>IlmThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadWin32.cpp">
+      <Filter>IlmThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathBox.cpp">
+      <Filter>Imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathColorAlgo.cpp">
+      <Filter>Imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathFun.cpp">
+      <Filter>Imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathMatrixAlgo.cpp">
+      <Filter>Imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathRandom.cpp">
+      <Filter>Imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathShear.cpp">
+      <Filter>Imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathVec.cpp">
+      <Filter>Imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Half\half.cpp">
+      <Filter>Half</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Half\half.h">
+      <Filter>Half</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Half\halfFunction.h">
+      <Filter>Half</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Half\halfLimits.h">
+      <Filter>Half</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Iex\Iex.h">
+      <Filter>Iex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Iex\IexBaseExc.h">
+      <Filter>Iex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Iex\IexErrnoExc.h">
+      <Filter>Iex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Iex\IexMacros.h">
+      <Filter>Iex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Iex\IexMathExc.h">
+      <Filter>Iex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Iex\IexThrowErrnoExc.h">
+      <Filter>Iex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThread.h">
+      <Filter>IlmThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadMutex.h">
+      <Filter>IlmThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadPool.h">
+      <Filter>IlmThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadSemaphore.h">
+      <Filter>IlmThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathBox.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathBoxAlgo.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathColor.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathColorAlgo.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathEuler.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathExc.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathFrame.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathFrustum.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathFun.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathGL.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathGLU.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathHalfLimits.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathInt64.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathInterval.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathLimits.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathLine.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathLineAlgo.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathMath.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathMatrix.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathMatrixAlgo.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathPlane.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathPlatform.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathQuat.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathRandom.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathRoots.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathShear.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathSphere.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathVec.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathVecAlgo.h">
+      <Filter>Imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\config.windows\IlmBaseConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Half\toFloat.h">
+      <Filter>Half</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Half\eLut.h">
+      <Filter>Half</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Half\half.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Iex\IexBaseExc.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Iex\IexThrowErrnoExc.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThread.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadMutex.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadMutexPosix.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadMutexWin32.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadPool.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadPosix.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadSemaphore.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadSemaphorePosix.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadSemaphorePosixCompat.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadSemaphoreWin32.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadWin32.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathBox.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathColorAlgo.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathFun.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathMatrixAlgo.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathRandom.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathShear.cpp" />
+    <ClCompile Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathVec.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\config.windows\IlmBaseConfig.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Half\eLut.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Half\half.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Half\halfFunction.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Half\halfLimits.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Half\toFloat.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Iex\Iex.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Iex\IexBaseExc.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Iex\IexErrnoExc.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Iex\IexMacros.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Iex\IexMathExc.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Iex\IexThrowErrnoExc.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThread.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadMutex.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadPool.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\IlmThread\IlmThreadSemaphore.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathBox.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathBoxAlgo.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathColor.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathColorAlgo.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathEuler.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathExc.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathFrame.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathFrustum.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathFun.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathGL.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathGLU.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathHalfLimits.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathInt64.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathInterval.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathLimits.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathLine.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathLineAlgo.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathMath.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathMatrix.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathMatrixAlgo.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathPlane.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathPlatform.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathQuat.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathRandom.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathRoots.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathShear.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathSphere.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathVec.h" />
+    <ClInclude Include="..\..\contrib\ilmbase-1.0.2\Imath\ImathVecAlgo.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{84A50D55-458E-45b2-8C61-7D7646ABC6D3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AlembicIlmBase</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="AlembicContrib.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="AlembicContrib.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

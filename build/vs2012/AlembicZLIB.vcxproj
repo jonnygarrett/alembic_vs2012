@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\adler32.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\compress.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\crc32.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\deflate.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\gzclose.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\gzlib.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\gzread.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\gzwrite.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\infback.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\inffast.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\inflate.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\inftrees.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\trees.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\uncompr.c" />
+    <ClCompile Include="..\..\contrib\zlib-1.2.8\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\contrib\zlib-1.2.8\crc32.h" />
+    <ClInclude Include="..\..\contrib\zlib-1.2.8\deflate.h" />
+    <ClInclude Include="..\..\contrib\zlib-1.2.8\gzguts.h" />
+    <ClInclude Include="..\..\contrib\zlib-1.2.8\inffast.h" />
+    <ClInclude Include="..\..\contrib\zlib-1.2.8\inffixed.h" />
+    <ClInclude Include="..\..\contrib\zlib-1.2.8\inflate.h" />
+    <ClInclude Include="..\..\contrib\zlib-1.2.8\inftrees.h" />
+    <ClInclude Include="..\..\contrib\zlib-1.2.8\trees.h" />
+    <ClInclude Include="..\..\contrib\zlib-1.2.8\zconf.h" />
+    <ClInclude Include="..\..\contrib\zlib-1.2.8\zlib.h" />
+    <ClInclude Include="..\..\contrib\zlib-1.2.8\zutil.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F12904AC-09CC-4200-8095-B0C54DC7B0D0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AlembicZLIB</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="AlembicContrib.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="AlembicContrib.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

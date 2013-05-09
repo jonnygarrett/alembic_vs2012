@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\lib\Alembic\AbcCollection\ICollections.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCollection\OCollections.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArraySample.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\Foundation.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ReadArraySampleCache.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarPropertyReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarPropertyWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarSample.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\TimeSampling.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\TimeSamplingType.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\AprImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\ApwImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\ArImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\AwImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\CacheImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\CprData.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\CprImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\CpwData.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\CpwImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\DataTypeRegistry.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5Hierarchy.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5HierarchyReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5HierarchyWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5Util.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\OrData.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\OrImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\OwData.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\OwImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\ReadUtil.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\ReadWrite.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\SprImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\SpwImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\StringReadUtil.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\StringWriteUtil.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\WriteUtil.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ArchiveBounds.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\Basis.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\CameraSample.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\FilmBackXformOp.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\GeometryScope.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ICamera.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ICurves.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IFaceSet.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ILight.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\INuPatch.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IPoints.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IPolyMesh.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ISubD.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IXform.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OCamera.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OCurves.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OFaceSet.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OLight.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ONuPatch.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OPoints.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OPolyMesh.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OSubD.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OXform.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\Visibility.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\XformOp.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\XformSample.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\IMaterial.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\InternalUtil.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\MaterialAssignment.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\MaterialFlatten.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\OMaterial.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\ArchiveInfo.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\ErrorHandler.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\IArchive.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\IArrayProperty.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\ICompoundProperty.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\IObject.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\ISampleSelector.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\IScalarProperty.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\OArchive.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\OArrayProperty.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\OCompoundProperty.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\OObject.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Abc\OScalarProperty.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Util\Murmur3.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Util\Naming.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Util\TokenMap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\lib\Alembic\AbcCollection\All.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCollection\ICollections.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCollection\OCollections.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCollection\SchemaInfoDeclarations.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\All.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArraySample.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArraySampleKey.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\DataType.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ForwardDeclarations.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\Foundation.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\MetaData.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectHeader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\PropertyHeader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ReadArraySampleCache.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarPropertyReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarPropertyWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarSample.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\TimeSampling.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\TimeSamplingType.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\All.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\AprImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\ApwImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\ArImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\AwImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\CacheImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\CprData.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\CprImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\CpwData.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\CpwImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\DataTypeRegistry.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\Foundation.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5Hierarchy.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5HierarchyReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5HierarchyWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5Util.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\OrData.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\OrImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\OwData.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\OwImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\ReadUtil.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\ReadWrite.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\SimplePrImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\SimplePwImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\SprImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\SpwImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\StringReadUtil.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\StringWriteUtil.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\WriteUtil.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\WrittenArraySampleMap.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\All.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ArchiveBounds.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\Basis.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\CameraSample.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\CurveType.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\FaceSetExclusivity.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\FilmBackXformOp.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\Foundation.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\GeometryScope.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ICamera.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ICurves.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IFaceSet.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IGeomBase.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IGeomParam.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ILight.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\INuPatch.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IPoints.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IPolyMesh.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ISubD.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IXform.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OCamera.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OCurves.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OFaceSet.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OGeomBase.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OGeomParam.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OLight.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ONuPatch.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OPoints.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OPolyMesh.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OSubD.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OXform.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\SchemaInfoDeclarations.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\Visibility.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\XformOp.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\XformSample.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcMaterial\All.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcMaterial\IMaterial.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcMaterial\InternalUtil.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcMaterial\MaterialAssignment.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcMaterial\MaterialFlatten.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcMaterial\OMaterial.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcMaterial\SchemaInfoDeclarations.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\All.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\ArchiveInfo.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\Argument.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\Base.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\ErrorHandler.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\Foundation.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\IArchive.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\IArrayProperty.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\IBaseProperty.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\ICompoundProperty.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\IObject.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\ISampleSelector.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\IScalarProperty.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\ISchema.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\ISchemaObject.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\ITypedArrayProperty.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\ITypedScalarProperty.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\OArchive.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\OArrayProperty.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\OBaseProperty.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\OCompoundProperty.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\OObject.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\OScalarProperty.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\OSchema.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\OSchemaObject.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\OTypedArrayProperty.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\OTypedScalarProperty.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\TypedArraySample.h" />
+    <ClInclude Include="..\..\lib\Alembic\Abc\TypedPropertyTraits.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\All.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\Digest.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\Dimensions.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\Exception.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\Foundation.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\Murmur3.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\Naming.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\OperatorBool.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\PlainOldDataType.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\TokenMap.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6D62F026-87AA-43AA-870C-8774C0C5E983}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Alembic</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="AlembicContrib.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="AlembicContrib.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

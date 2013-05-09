@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <ALEMBIC_ILMBASE>..\..\contrib\ilmbase-1.0.2</ALEMBIC_ILMBASE>
+    <ALEMBIC_OPENEXR>..\..\contrib\openexr-1.6.1</ALEMBIC_OPENEXR>
+    <ALEMBIC_ZLIB>..\..\contrib\zlib-1.2.8</ALEMBIC_ZLIB>
+    <ALEMBIC_HDF5>..\..\contrib\hdf5-1.8.9-win64</ALEMBIC_HDF5>
+    <ALEMBIC_GLEW>..\..\contrib\glew-1.9.0</ALEMBIC_GLEW>
+    <ALEMBIC_GLUT>..\..\contrib\glut-3.7.6-bin</ALEMBIC_GLUT>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ALEMBIC_ILMBASE)\Config.windows;$(ALEMBIC_ILMBASE)\Half;$(ALEMBIC_ILMBASE)\Iex;$(ALEMBIC_ILMBASE)\IlmThread;$(ALEMBIC_ILMBASE)\Imath;$(ALEMBIC_OPENEXR)\config.windows;$(ALEMBIC_OPENEXR)\exrenvmap;$(ALEMBIC_OPENEXR)\exrmakepreview;$(ALEMBIC_OPENEXR)\exrmaketiled;$(ALEMBIC_OPENEXR)\IlmImf;$(ALEMBIC_ZLIB);$(ALEMBIC_HDF5)\include;$(ALEMBIC_GLEW)\include;$(ALEMBIC_GLUT)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WIN64;_CRT_SECURE_NO_WARNINGS;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="ALEMBIC_ILMBASE">
+      <Value>$(ALEMBIC_ILMBASE)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ALEMBIC_OPENEXR">
+      <Value>$(ALEMBIC_OPENEXR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ALEMBIC_ZLIB">
+      <Value>$(ALEMBIC_ZLIB)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ALEMBIC_HDF5">
+      <Value>$(ALEMBIC_HDF5)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ALEMBIC_GLEW">
+      <Value>$(ALEMBIC_GLEW)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ALEMBIC_GLUT">
+      <Value>$(ALEMBIC_GLUT)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
