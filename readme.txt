@@ -47,8 +47,6 @@ build in visual studio
 
 --------------------------------------------------------------------------------
 
-prebuilt libs and example exes: http://goo.gl/4rVAZ
-
-
+prebuilt libs and example exes: http://goo.gl/r2Z8b
 
 --------------------------------------------------------------------------------
