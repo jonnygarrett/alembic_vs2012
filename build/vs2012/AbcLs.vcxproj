@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6C8EA6C9-BFF0-4B15-A672-26F17795503B}</ProjectGuid>
+    <ProjectGuid>{60D08623-B2A4-43B1-9450-D8928E3B804E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>SimpleaBcviewer</RootNamespace>
+    <RootNamespace>AbcLs</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -53,14 +53,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;PLATFORM_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(ALEMBIC_HDF5)\lib;$(ALEMBIC_GLUT)\gl</AdditionalLibraryDirectories>
-      <AdditionalDependencies>hdf5.lib;hdf5_hl.lib;libszip.lib;glut64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ALEMBIC_HDF5)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>hdf5.lib;hdf5_hl.lib;libszip.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -71,7 +71,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;PLATFORM_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -79,18 +79,12 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>$(ALEMBIC_HDF5)\lib;$(ALEMBIC_GLUT)\gl</AdditionalLibraryDirectories>
-      <AdditionalDependencies>hdf5.lib;hdf5_hl.lib;libszip.lib;glut64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ALEMBIC_HDF5)\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>hdf5.lib;hdf5_hl.lib;libszip.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\examples\bin\SimpleAbcViewer\main.cpp" />
-    <ClCompile Include="..\..\examples\bin\SimpleAbcViewer\Transport.cpp" />
-    <ClCompile Include="..\..\examples\bin\SimpleAbcViewer\Viewer.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\examples\bin\SimpleAbcViewer\Transport.h" />
-    <ClInclude Include="..\..\examples\bin\SimpleAbcViewer\Viewer.h" />
+    <ClCompile Include="..\..\examples\bin\AbcLs\AbcLs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Alembic.vcxproj">
@@ -101,9 +95,6 @@
     </ProjectReference>
     <ProjectReference Include="AlembicAbcCoreOgawa.vcxproj">
       <Project>{406b05bd-b432-43ad-bea6-f03e2127916e}</Project>
-    </ProjectReference>
-    <ProjectReference Include="AlembicAbcOpenGL.vcxproj">
-      <Project>{513389b0-74ce-47cf-97c5-9abc2db3b141}</Project>
     </ProjectReference>
     <ProjectReference Include="AlembicIlmBase.vcxproj">
       <Project>{84a50d55-458e-45b2-8c61-7d7646abc6d3}</Project>

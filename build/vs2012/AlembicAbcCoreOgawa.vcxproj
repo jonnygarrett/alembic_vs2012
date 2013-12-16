@@ -11,39 +11,54 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\lib\AbcOpenGL\All.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\Drawable.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\DrawContext.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\Foundation.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\GLCamera.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\ICurvesDrw.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\INuPatchDrw.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\IObjectDrw.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\IPointsDrw.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\IPolyMeshDrw.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\ISubDDrw.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\IXformDrw.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\MeshDrwHelper.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\Scene.h" />
-    <ClInclude Include="..\..\lib\AbcOpenGL\SceneWrapper.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\All.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\AprImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\ApwImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\ArImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\AwImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\CprData.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\CprImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\CpwData.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\CpwImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\Foundation.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\MetaDataMap.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\OrData.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\OrImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\OwData.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\OwImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\ReadUtil.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\ReadWrite.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\SprImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\SpwImpl.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\StreamManager.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\WriteUtil.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreOgawa\WrittenSampleMap.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\lib\AbcOpenGL\GLCamera.cpp" />
-    <ClCompile Include="..\..\lib\AbcOpenGL\ICurvesDrw.cpp" />
-    <ClCompile Include="..\..\lib\AbcOpenGL\INuPatchDrw.cpp" />
-    <ClCompile Include="..\..\lib\AbcOpenGL\IObjectDrw.cpp" />
-    <ClCompile Include="..\..\lib\AbcOpenGL\IPointsDrw.cpp" />
-    <ClCompile Include="..\..\lib\AbcOpenGL\IPolyMeshDrw.cpp" />
-    <ClCompile Include="..\..\lib\AbcOpenGL\ISubDDrw.cpp" />
-    <ClCompile Include="..\..\lib\AbcOpenGL\IXformDrw.cpp" />
-    <ClCompile Include="..\..\lib\AbcOpenGL\MeshDrwHelper.cpp" />
-    <ClCompile Include="..\..\lib\AbcOpenGL\Scene.cpp" />
-    <ClCompile Include="..\..\lib\AbcOpenGL\SceneWrapper.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\AprImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\ApwImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\ArImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\AwImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\CprData.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\CprImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\CpwData.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\CpwImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\MetaDataMap.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\OrData.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\OrImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\OwData.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\OwImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\ReadUtil.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\ReadWrite.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\SprImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\SpwImpl.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\StreamManager.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreOgawa\WriteUtil.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{513389B0-74CE-47cf-97C5-9ABC2DB3B141}</ProjectGuid>
+    <ProjectGuid>{406B05BD-B432-43AD-BEA6-F03E2127916E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>AlembicAbcOpenGL</RootNamespace>
+    <RootNamespace>AlembicAbcCoreOgawa</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -71,10 +86,10 @@
     <Import Project="AlembicContrib.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -82,7 +97,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;PLATFORM_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
@@ -98,7 +113,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;PLATFORM_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>

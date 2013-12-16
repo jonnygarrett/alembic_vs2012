@@ -14,9 +14,6 @@
     <Filter Include="Source Files\AbcCoreAbstract">
       <UniqueIdentifier>{c1c89e46-f78b-4453-85af-dd082ee37c32}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\AbcCoreHDF5">
-      <UniqueIdentifier>{cc8fab10-0c78-4485-95b8-fea19ff84b7c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\AbcGeom">
       <UniqueIdentifier>{7d163a61-f4e4-465d-a45e-4a868d0b2d68}</UniqueIdentifier>
     </Filter>
@@ -26,284 +23,9 @@
     <Filter Include="Source Files\Util">
       <UniqueIdentifier>{bdf57d63-0902-42ee-95ec-df7814ed0c77}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\lib\Alembic\Abc\ErrorHandler.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Abc\IArchive.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Abc\IArrayProperty.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Abc\ICompoundProperty.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Abc\IObject.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Abc\ISampleSelector.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Abc\IScalarProperty.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Abc\OArchive.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Abc\OArrayProperty.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Abc\OCompoundProperty.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Abc\OObject.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Abc\OScalarProperty.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Abc\ArchiveInfo.cpp">
-      <Filter>Source Files\Abc</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCollection\ICollections.cpp">
-      <Filter>Source Files\AbcCollection</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCollection\OCollections.cpp">
-      <Filter>Source Files\AbcCollection</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveReader.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveWriter.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyReader.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyWriter.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArraySample.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyReader.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyWriter.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyReader.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyWriter.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\Foundation.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectReader.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectWriter.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ReadArraySampleCache.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarPropertyReader.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarPropertyWriter.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarSample.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\TimeSampling.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\TimeSamplingType.cpp">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\AprImpl.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\ApwImpl.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\ArImpl.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\AwImpl.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\CacheImpl.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\CprData.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\CprImpl.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\CpwData.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\CpwImpl.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\DataTypeRegistry.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5Hierarchy.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5HierarchyReader.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5HierarchyWriter.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5Util.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\OrData.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\OrImpl.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\OwData.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\OwImpl.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\ReadUtil.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\ReadWrite.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\SprImpl.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\SpwImpl.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\StringReadUtil.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\StringWriteUtil.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcCoreHDF5\WriteUtil.cpp">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ArchiveBounds.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\Basis.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\CameraSample.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\FilmBackXformOp.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\GeometryScope.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ICamera.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ICurves.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IFaceSet.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ILight.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\INuPatch.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IPoints.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IPolyMesh.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ISubD.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IXform.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OCamera.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OCurves.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OFaceSet.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OLight.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ONuPatch.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OPoints.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OPolyMesh.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OSubD.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OXform.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\Visibility.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\XformOp.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcGeom\XformSample.cpp">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\InternalUtil.cpp">
-      <Filter>Source Files\AbcMaterial</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\MaterialAssignment.cpp">
-      <Filter>Source Files\AbcMaterial</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\MaterialFlatten.cpp">
-      <Filter>Source Files\AbcMaterial</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\OMaterial.cpp">
-      <Filter>Source Files\AbcMaterial</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\IMaterial.cpp">
-      <Filter>Source Files\AbcMaterial</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Util\Murmur3.cpp">
-      <Filter>Source Files\Util</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Util\Naming.cpp">
-      <Filter>Source Files\Util</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\lib\Alembic\Util\TokenMap.cpp">
-      <Filter>Source Files\Util</Filter>
-    </ClCompile>
+    <Filter Include="Source Files\AbcCoreFactory">
+      <UniqueIdentifier>{a29d1d73-8290-4832-9b21-ef02608b4831}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\lib\Alembic\Abc\All.h">
@@ -387,14 +109,14 @@
     <ClInclude Include="..\..\lib\Alembic\Abc\OTypedScalarProperty.h">
       <Filter>Source Files\Abc</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\Abc\Reference.h">
+      <Filter>Source Files\Abc</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\lib\Alembic\Abc\TypedArraySample.h">
       <Filter>Source Files\Abc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\lib\Alembic\Abc\TypedPropertyTraits.h">
       <Filter>Source Files\Abc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCollection\All.h">
-      <Filter>Source Files\AbcCollection</Filter>
     </ClInclude>
     <ClInclude Include="..\..\lib\Alembic\AbcCollection\ICollections.h">
       <Filter>Source Files\AbcCollection</Filter>
@@ -404,6 +126,33 @@
     </ClInclude>
     <ClInclude Include="..\..\lib\Alembic\AbcCollection\SchemaInfoDeclarations.h">
       <Filter>Source Files\AbcCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcCollection\All.h">
+      <Filter>Source Files\AbcCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveReader.h">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveWriter.h">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyReader.h">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyWriter.h">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArraySample.h">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArraySampleKey.h">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyReader.h">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyWriter.h">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
     </ClInclude>
     <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyReader.h">
       <Filter>Source Files\AbcCoreAbstract</Filter>
@@ -456,170 +205,11 @@
     <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\All.h">
       <Filter>Source Files\AbcCoreAbstract</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveReader.h">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreFactory\IFactory.h">
+      <Filter>Source Files\AbcCoreFactory</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveWriter.h">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyReader.h">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyWriter.h">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArraySample.h">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArraySampleKey.h">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyReader.h">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyWriter.h">
-      <Filter>Source Files\AbcCoreAbstract</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5Util.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\OrData.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\OrImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\OwData.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\OwImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\ReadUtil.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\ReadWrite.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\SimplePrImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\SimplePwImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\SprImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\SpwImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\StringReadUtil.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\StringWriteUtil.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\WriteUtil.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\WrittenArraySampleMap.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\All.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\AprImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\ApwImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\ArImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\AwImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\CacheImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\CprData.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\CprImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\CpwData.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\CpwImpl.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\DataTypeRegistry.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\Foundation.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5Hierarchy.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5HierarchyReader.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcCoreHDF5\HDF5HierarchyWriter.h">
-      <Filter>Source Files\AbcCoreHDF5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ISubD.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IXform.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OCamera.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OCurves.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OFaceSet.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OGeomBase.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OGeomParam.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OLight.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ONuPatch.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OPoints.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OPolyMesh.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OSubD.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OXform.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\SchemaInfoDeclarations.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\Visibility.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\XformOp.h">
-      <Filter>Source Files\AbcGeom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\AbcGeom\XformSample.h">
-      <Filter>Source Files\AbcGeom</Filter>
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreFactory\All.h">
+      <Filter>Source Files\AbcCoreFactory</Filter>
     </ClInclude>
     <ClInclude Include="..\..\lib\Alembic\AbcGeom\All.h">
       <Filter>Source Files\AbcGeom</Filter>
@@ -675,6 +265,57 @@
     <ClInclude Include="..\..\lib\Alembic\AbcGeom\IPolyMesh.h">
       <Filter>Source Files\AbcGeom</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ISubD.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IXform.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OCamera.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OCurves.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OFaceSet.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OGeomBase.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OGeomParam.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OLight.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ONuPatch.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OPoints.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OPolyMesh.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OSubD.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OXform.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\SchemaInfoDeclarations.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\Visibility.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\XformOp.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\XformSample.h">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\lib\Alembic\AbcMaterial\All.h">
       <Filter>Source Files\AbcMaterial</Filter>
     </ClInclude>
@@ -695,6 +336,12 @@
     </ClInclude>
     <ClInclude Include="..\..\lib\Alembic\AbcMaterial\SchemaInfoDeclarations.h">
       <Filter>Source Files\AbcMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\Util\All.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\Util\Digest.h">
+      <Filter>Source Files\Util</Filter>
     </ClInclude>
     <ClInclude Include="..\..\lib\Alembic\Util\Dimensions.h">
       <Filter>Source Files\Util</Filter>
@@ -717,14 +364,228 @@
     <ClInclude Include="..\..\lib\Alembic\Util\PlainOldDataType.h">
       <Filter>Source Files\Util</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\lib\Alembic\Util\SpookyV2.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\lib\Alembic\Util\TokenMap.h">
       <Filter>Source Files\Util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\Util\All.h">
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\lib\Alembic\Abc\ArchiveInfo.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\ErrorHandler.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\IArchive.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\IArrayProperty.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\ICompoundProperty.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\IObject.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\ISampleSelector.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\IScalarProperty.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\OArchive.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\OArrayProperty.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\OCompoundProperty.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\OObject.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\OScalarProperty.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Abc\Reference.cpp">
+      <Filter>Source Files\Abc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCollection\ICollections.cpp">
+      <Filter>Source Files\AbcCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCollection\OCollections.cpp">
+      <Filter>Source Files\AbcCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveReader.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveWriter.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyReader.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyWriter.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArraySample.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyReader.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyWriter.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyReader.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyWriter.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\Foundation.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectReader.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectWriter.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ReadArraySampleCache.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarPropertyReader.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarPropertyWriter.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarSample.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\TimeSampling.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\TimeSamplingType.cpp">
+      <Filter>Source Files\AbcCoreAbstract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreFactory\IFactory.cpp">
+      <Filter>Source Files\AbcCoreFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ArchiveBounds.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\Basis.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\CameraSample.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\FilmBackXformOp.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\GeometryScope.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ICamera.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ICurves.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IFaceSet.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ILight.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\INuPatch.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IPoints.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IPolyMesh.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ISubD.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IXform.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OCamera.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OCurves.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OFaceSet.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OLight.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ONuPatch.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OPoints.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OPolyMesh.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OSubD.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OXform.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\Visibility.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\XformOp.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\XformSample.cpp">
+      <Filter>Source Files\AbcGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\IMaterial.cpp">
+      <Filter>Source Files\AbcMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\InternalUtil.cpp">
+      <Filter>Source Files\AbcMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\MaterialAssignment.cpp">
+      <Filter>Source Files\AbcMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\MaterialFlatten.cpp">
+      <Filter>Source Files\AbcMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\AbcMaterial\OMaterial.cpp">
+      <Filter>Source Files\AbcMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Util\Murmur3.cpp">
       <Filter>Source Files\Util</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\lib\Alembic\Util\Digest.h">
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Util\Naming.cpp">
       <Filter>Source Files\Util</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Util\SpookyV2.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\Alembic\Util\TokenMap.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\lib\Alembic\AbcMaterial\README">
+      <Filter>Source Files\AbcMaterial</Filter>
+    </None>
   </ItemGroup>
 </Project>
