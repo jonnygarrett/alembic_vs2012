@@ -10,20 +10,39 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\lib\Alembic\Util\All.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\Digest.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\Dimensions.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\Exception.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\Foundation.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\Murmur3.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\Naming.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\OperatorBool.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\PlainOldDataType.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\SpookyV2.h" />
+    <ClInclude Include="..\..\lib\Alembic\Util\TokenMap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\lib\Alembic\Util\Murmur3.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Util\Naming.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Util\SpookyV2.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\Util\TokenMap.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F992647B-142F-48e3-80AA-F0E83E947374}</ProjectGuid>
+    <ProjectGuid>{E6D29262-B92F-4908-B612-009010FCBA0D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>AbcBoundsEcho</RootNamespace>
+    <RootNamespace>AlembicUtil</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v110</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v110</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -42,89 +61,43 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LinkIncremental>true</LinkIncremental>
     <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LinkIncremental>false</LinkIncremental>
     <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;PLATFORM_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(SolutionDir)$(Platform)\$(Configuration)\$(ProjectName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(ALEMBIC_HDF5)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>hdf5.lib;hdf5_hl.lib;libszip.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;PLATFORM_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(SolutionDir)$(Platform)\$(Configuration)\$(ProjectName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>$(ALEMBIC_HDF5)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>hdf5.lib;hdf5_hl.lib;libszip.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\examples\bin\AbcEcho\AbcBoundsEcho.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="AlembicAbc.vcxproj">
-      <Project>{7aaff870-c88a-4115-8a7b-4e7a3aa5ddb3}</Project>
-    </ProjectReference>
-    <ProjectReference Include="AlembicAbcCollection.vcxproj">
-      <Project>{87e05c5b-d866-44d8-a03d-7fb8c34ca113}</Project>
-    </ProjectReference>
-    <ProjectReference Include="AlembicAbcCoreAbstract.vcxproj">
-      <Project>{a0b04b70-81cc-47fe-9424-87fe96129a25}</Project>
-    </ProjectReference>
-    <ProjectReference Include="AlembicAbcCoreFactory.vcxproj">
-      <Project>{d6eddb60-217e-4d08-be68-eb74cd54ddd2}</Project>
-    </ProjectReference>
-    <ProjectReference Include="AlembicAbcCoreHDF5.vcxproj">
-      <Project>{419bc782-2b99-4998-a7f2-ca45ff834165}</Project>
-    </ProjectReference>
-    <ProjectReference Include="AlembicAbcCoreOgawa.vcxproj">
-      <Project>{dfdf05f4-214e-4f37-bc58-7776a438a87c}</Project>
-    </ProjectReference>
-    <ProjectReference Include="AlembicAbcGeom.vcxproj">
-      <Project>{a0ba0a1b-d604-4bfc-9d5e-a60d2ec02f43}</Project>
-    </ProjectReference>
-    <ProjectReference Include="AlembicIlmBase.vcxproj">
-      <Project>{84a50d55-458e-45b2-8c61-7d7646abc6d3}</Project>
-    </ProjectReference>
-    <ProjectReference Include="AlembicOgawa.vcxproj">
-      <Project>{c3361f9d-58fa-4d7c-9bef-d2218f408590}</Project>
-    </ProjectReference>
-    <ProjectReference Include="AlembicUtil.vcxproj">
-      <Project>{e6d29262-b92f-4908-b612-009010fcba0d}</Project>
-    </ProjectReference>
-    <ProjectReference Include="AlembicZLIB.vcxproj">
-      <Project>{f12904ac-09cc-4200-8095-b0c54dc7b0d0}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

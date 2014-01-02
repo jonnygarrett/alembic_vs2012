@@ -11,31 +11,56 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\All.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\Foundation.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\IArchive.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\IData.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\IGroup.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\IStreams.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\OArchive.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\OData.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\OGroup.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\OStream.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\All.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArraySample.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ArraySampleKey.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\DataType.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ForwardDeclarations.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\Foundation.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\MetaData.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectHeader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\PropertyHeader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ReadArraySampleCache.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarPropertyReader.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarPropertyWriter.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarSample.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\TimeSampling.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcCoreAbstract\TimeSamplingType.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\IArchive.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\IData.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\IGroup.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\IStreams.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\OArchive.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\OData.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\OGroup.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\OStream.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArchiveWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArrayPropertyWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ArraySample.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\BasePropertyWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\CompoundPropertyWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\Foundation.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ObjectWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ReadArraySampleCache.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarPropertyReader.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarPropertyWriter.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\ScalarSample.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\TimeSampling.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcCoreAbstract\TimeSamplingType.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C3361F9D-58FA-4d7c-9BEF-D2218F408590}</ProjectGuid>
+    <ProjectGuid>{A0B04B70-81CC-47fe-9424-87FE96129A25}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>AlembicOgawa</RootNamespace>
+    <RootNamespace>AlembicAbcCoreAbstract</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

@@ -13,7 +13,7 @@
   <ItemDefinitionGroup>
     <ClCompile>
       <AdditionalIncludeDirectories>$(ALEMBIC_ILMBASE)\Config.windows;$(ALEMBIC_ILMBASE)\Half;$(ALEMBIC_ILMBASE)\Iex;$(ALEMBIC_ILMBASE)\IlmThread;$(ALEMBIC_ILMBASE)\Imath;$(ALEMBIC_OPENEXR)\config.windows;$(ALEMBIC_OPENEXR)\exrenvmap;$(ALEMBIC_OPENEXR)\exrmakepreview;$(ALEMBIC_OPENEXR)\exrmaketiled;$(ALEMBIC_OPENEXR)\IlmImf;$(ALEMBIC_ZLIB);$(ALEMBIC_HDF5)\include;$(ALEMBIC_GLEW)\include;$(ALEMBIC_GLUT)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>_WIN64;_CRT_SECURE_NO_WARNINGS;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NOMINMAX;_WIN64;_CRT_SECURE_NO_WARNINGS;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>

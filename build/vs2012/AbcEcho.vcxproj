@@ -43,9 +43,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -55,6 +57,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(SolutionDir)$(Platform)\$(Configuration)\$(ProjectName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -73,6 +76,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(SolutionDir)$(Platform)\$(Configuration)\$(ProjectName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -87,20 +91,35 @@
     <ClCompile Include="..\..\examples\bin\AbcEcho\AbcEcho.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Alembic.vcxproj">
-      <Project>{6d62f026-87aa-43aa-870c-8774c0c5e983}</Project>
+    <ProjectReference Include="AlembicAbc.vcxproj">
+      <Project>{7aaff870-c88a-4115-8a7b-4e7a3aa5ddb3}</Project>
+    </ProjectReference>
+    <ProjectReference Include="AlembicAbcCollection.vcxproj">
+      <Project>{87e05c5b-d866-44d8-a03d-7fb8c34ca113}</Project>
+    </ProjectReference>
+    <ProjectReference Include="AlembicAbcCoreAbstract.vcxproj">
+      <Project>{a0b04b70-81cc-47fe-9424-87fe96129a25}</Project>
+    </ProjectReference>
+    <ProjectReference Include="AlembicAbcCoreFactory.vcxproj">
+      <Project>{d6eddb60-217e-4d08-be68-eb74cd54ddd2}</Project>
     </ProjectReference>
     <ProjectReference Include="AlembicAbcCoreHDF5.vcxproj">
-      <Project>{f1966430-76c8-4c98-bfbe-3c963a58ee47}</Project>
+      <Project>{419bc782-2b99-4998-a7f2-ca45ff834165}</Project>
     </ProjectReference>
     <ProjectReference Include="AlembicAbcCoreOgawa.vcxproj">
-      <Project>{406b05bd-b432-43ad-bea6-f03e2127916e}</Project>
+      <Project>{dfdf05f4-214e-4f37-bc58-7776a438a87c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="AlembicAbcGeom.vcxproj">
+      <Project>{a0ba0a1b-d604-4bfc-9d5e-a60d2ec02f43}</Project>
     </ProjectReference>
     <ProjectReference Include="AlembicIlmBase.vcxproj">
       <Project>{84a50d55-458e-45b2-8c61-7d7646abc6d3}</Project>
     </ProjectReference>
     <ProjectReference Include="AlembicOgawa.vcxproj">
-      <Project>{610fd779-7c4a-4957-9d88-142c1816c671}</Project>
+      <Project>{c3361f9d-58fa-4d7c-9bef-d2218f408590}</Project>
+    </ProjectReference>
+    <ProjectReference Include="AlembicUtil.vcxproj">
+      <Project>{e6d29262-b92f-4908-b612-009010fcba0d}</Project>
     </ProjectReference>
     <ProjectReference Include="AlembicZLIB.vcxproj">
       <Project>{f12904ac-09cc-4200-8095-b0c54dc7b0d0}</Project>

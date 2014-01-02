@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F992647B-142F-48e3-80AA-F0E83E947374}</ProjectGuid>
+    <ProjectGuid>{4B6B6B5A-488C-43d8-BFCA-F9A0067183A6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>AbcBoundsEcho</RootNamespace>
+    <RootNamespace>AbcConvert</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -88,7 +88,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\examples\bin\AbcEcho\AbcBoundsEcho.cpp" />
+    <ClCompile Include="..\..\examples\bin\AbcConvert\AbcConvert.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AlembicAbc.vcxproj">

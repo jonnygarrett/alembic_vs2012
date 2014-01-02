@@ -11,31 +11,74 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\All.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\Foundation.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\IArchive.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\IData.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\IGroup.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\IStreams.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\OArchive.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\OData.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\OGroup.h" />
-    <ClInclude Include="..\..\lib\Alembic\Ogawa\OStream.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\All.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ArchiveBounds.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\Basis.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\CameraSample.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\CurveType.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\FaceSetExclusivity.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\FilmBackXformOp.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\Foundation.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\GeometryScope.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ICamera.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ICurves.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IFaceSet.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IGeomBase.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IGeomParam.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ILight.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\INuPatch.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IPoints.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IPolyMesh.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ISubD.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\IXform.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OCamera.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OCurves.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OFaceSet.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OGeomBase.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OGeomParam.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OLight.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\ONuPatch.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OPoints.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OPolyMesh.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OSubD.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\OXform.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\SchemaInfoDeclarations.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\Visibility.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\XformOp.h" />
+    <ClInclude Include="..\..\lib\Alembic\AbcGeom\XformSample.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\IArchive.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\IData.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\IGroup.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\IStreams.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\OArchive.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\OData.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\OGroup.cpp" />
-    <ClCompile Include="..\..\lib\Alembic\Ogawa\OStream.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ArchiveBounds.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\Basis.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\CameraSample.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\FilmBackXformOp.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\GeometryScope.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ICamera.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ICurves.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IFaceSet.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ILight.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\INuPatch.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IPoints.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IPolyMesh.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ISubD.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\IXform.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OCamera.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OCurves.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OFaceSet.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OLight.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\ONuPatch.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OPoints.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OPolyMesh.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OSubD.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\OXform.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\Visibility.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\XformOp.cpp" />
+    <ClCompile Include="..\..\lib\Alembic\AbcGeom\XformSample.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C3361F9D-58FA-4d7c-9BEF-D2218F408590}</ProjectGuid>
+    <ProjectGuid>{A0BA0A1B-D604-4bfc-9D5E-A60D2EC02F43}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>AlembicOgawa</RootNamespace>
+    <RootNamespace>AlembicAbcGeom</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
