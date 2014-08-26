@@ -1,22 +1,31 @@
 --------------------------------------------------------------------------------
-alembic 1.1.5 vs2012 x64
+alembic 1.5.5 vs2012 x64
 --------------------------------------------------------------------------------
 
 copy vs2012 folder to build\vs2012
 
 
+--------------------------------------------------------------------------------
+
+fixup examples for windows:
+  examples\bin\AbcLs\AbcLs.cpp
+    comment out '// seg fault handler' block
+
+
+--------------------------------------------------------------------------------
+
 setup contrib libraries:
 
-  ilmbase-1.0.2
-    http://download.savannah.nongnu.org/releases/openexr/ilmbase-1.0.2.tar.gz
-    extract to contrib\ilmbase-1.0.2
+  ilmbase-1.0.3
+    https://github.com/downloads/openexr/openexr/ilmbase-1.0.3.tar.gz
+    extract to contrib\ilmbase-1.0.3
     
-    copy build\vs2012\contrib\toFloat.h to contrib\ilmbase-1.0.2\Half\toFloat.h
-    copy build\vs2012\contrib\eLut.h    to contrib\ilmbase-1.0.2\Half\eLut.h
+    copy build\vs2012\contrib\toFloat.h to contrib\ilmbase-1.0.3\Half\toFloat.h
+    copy build\vs2012\contrib\eLut.h    to contrib\ilmbase-1.0.3\Half\eLut.h
 
-  openexr-1.6.1
-    http://download.savannah.nongnu.org/releases/openexr/openexr-1.6.1.tar.gz
-    extract to contrib\openexr-1.6.1
+  openexr-1.7.1
+    https://github.com/downloads/openexr/openexr/openexr-1.7.1.tar.gz
+    extract to contrib\openexr-1.7.1
 
   hdf5-1.8.9
     prebuilt x64 binaries from
@@ -40,6 +49,9 @@ setup contrib libraries:
     extract to contrib\glut-3.7.6-bin\gl
     (ie. glut-3.7.6-bin\gl contains glut.h and the libs / dlls)
 
+
+
+load build\vs2012\Alembic.sln
 
 build in visual studio
 

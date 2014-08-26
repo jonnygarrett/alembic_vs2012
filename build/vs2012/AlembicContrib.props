@@ -2,8 +2,8 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
-    <ALEMBIC_ILMBASE>..\..\contrib\ilmbase-1.0.2</ALEMBIC_ILMBASE>
-    <ALEMBIC_OPENEXR>..\..\contrib\openexr-1.6.1</ALEMBIC_OPENEXR>
+    <ALEMBIC_ILMBASE>..\..\contrib\ilmbase-1.0.3</ALEMBIC_ILMBASE>
+    <ALEMBIC_OPENEXR>..\..\contrib\openexr-1.7.1</ALEMBIC_OPENEXR>
     <ALEMBIC_ZLIB>..\..\contrib\zlib-1.2.8</ALEMBIC_ZLIB>
     <ALEMBIC_HDF5>..\..\contrib\hdf5-1.8.9-win64</ALEMBIC_HDF5>
     <ALEMBIC_GLEW>..\..\contrib\glew-1.9.0</ALEMBIC_GLEW>
